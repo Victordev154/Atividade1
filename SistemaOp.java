@@ -15,7 +15,7 @@ public class SistemaOp {
     }
 
     public boolean executarPrograma (Programa p) {
-        System.out.println("Verificando o programa, aguarde...");
+        System.out.println("Verificando o programa, aguarde....");
 
         if(p.getSSDOcupado()>this.computador.getSSD()){
             System.out.println("Erro: SSD insuficiente");
